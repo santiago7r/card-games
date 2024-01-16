@@ -5,8 +5,8 @@ const GameCardSkeleton = () => {
     const { games, error } = useGames();
 
     return (
-        <Card width='300px'>
-            <Skeleton height="200px" />
+        <Card>
+            <Skeleton height="200px"/>
             <CardBody>
                 <SkeletonText />
             </CardBody>
